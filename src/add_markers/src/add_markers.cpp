@@ -27,15 +27,15 @@ int main( int argc, char** argv )
 
   // Set the pickup pose of the marker.
   // This is relative to the frame/time specified above
-  marker.pose.position.x = 3.84;
-  marker.pose.position.y = -2.2;
+  marker.pose.position.x = -1.598;
+  marker.pose.position.y = 1.207;
   marker.pose.position.z = 0;
 
   // Set the orientation of the marker.
   marker.pose.orientation.x = 0.0;
   marker.pose.orientation.y = 0.0;
   marker.pose.orientation.z = 0.0;
-  marker.pose.orientation.w = 1.0;
+  marker.pose.orientation.w = 2;
 
   // Set the scale of the marker -- 1x1x1 here means 1m on a side
   marker.scale.x = 1.0;
@@ -79,9 +79,14 @@ int main( int argc, char** argv )
   ros::Duration(5.0).sleep();
   // Set the drop-off pose of the marker.
   // This is relative to the frame/time specified above
-  marker.pose.position.x = -1.59;
-  marker.pose.position.y = -2.17;
+  marker.pose.position.x = -0.773;
+  marker.pose.position.y = -5.562;
   marker.pose.position.z = 0;
+
+  marker.pose.orientation.x = 0.0;
+  marker.pose.orientation.y = 0.0;
+  marker.pose.orientation.z = 0.0;
+  marker.pose.orientation.w = -2.3;
 
   // Set the marker action to ADD.
   marker.action = visualization_msgs::Marker::ADD;
