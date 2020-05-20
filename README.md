@@ -4,7 +4,7 @@
 
 ## Project 05: Home Service Robot
 
-### RTAB-map 
+### Rviz Visualization
 ![alt txt](docs/demo.png)
 
 ### Directory Structure
