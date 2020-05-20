@@ -11,4 +11,4 @@ xterm  -e  "source devel/setup.bash; roslaunch turtlebot_rviz_launchers view_nav
 
 sleep 10
 
-xterm  -e  "source devel/setup.bash; roslaunch pick_objects pick_objects.launch"
+xterm  -e  "source devel/setup.bash; roslaunch add_markers add_markers.launch"
